@@ -23,7 +23,7 @@ const {firstChildByTag, createElement, appendChild} = require('../NodeUtils');
  *
  * This transformer supports the following parameter(s):
  *
- * * `ampUrl`: specifying an URL pointing to the valid AMP version of this document.
+ * * `https://batmanreceh.xyz/amp/
  */
 class AddAmpLink {
   transform(root, params) {
